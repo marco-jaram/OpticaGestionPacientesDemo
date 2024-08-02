@@ -5,7 +5,7 @@ Este proyecto es una aplicación de gestión de clientes diseñada para ayudar a
 ## Características principales
 ### 1. Login
 Sistema de autenticación seguro para proteger la información de los pacientes.
-![Login](https://i.postimg.cc/15MRsMC6/login.png)
+![Login]()
 
 ### 2. Nuevo Paciente
 Interfaz intuitiva para agregar nuevos pacientes al sistema.
@@ -13,20 +13,20 @@ Interfaz intuitiva para agregar nuevos pacientes al sistema.
 
 ### 3. Actualizar Paciente
 Herramienta para mantener la información de los pacientes actualizada.
-![Actualizar Paciente](https://i.postimg.cc/J05ryQRf/edit.png)
+![Actualizar Paciente](https://i.postimg.cc/1tJyq8gh/edit.png)
 
 ### 4. Búsqueda de Paciente
 Sistema de búsqueda eficiente para encontrar rápidamente la información de un paciente específico.
-![Búsqueda de Paciente](https://i.postimg.cc/4yg4N0Rv/buscar.png)
-![Búsqueda de Paciente](https://i.postimg.cc/dQ2tSJG5/buscar2.png)
+![Búsqueda de Paciente](https://i.postimg.cc/wv66MXjQ/buscar.png)
+![Búsqueda de Paciente](https://i.postimg.cc/SRRk7m8X/buscar2.png)
 
 ### 5. Próximas Visitas
 Visualización clara de las próximas citas programadas.
-![Próximas Visitas](https://i.postimg.cc/XYJjJFmP/proxima.png)
+![Próximas Visitas](https://i.postimg.cc/Yq4tvqMZ/proxima.png)
 
 ### 6. Ver Todos
 Vista general de todos los pacientes registrados en el sistema.
-![Ver Todos](https://i.postimg.cc/9QnWq0jQ/todos.png)
+![Ver Todos](https://i.postimg.cc/zX98KZfB/todos.png)
 
 ## Instalación
 
