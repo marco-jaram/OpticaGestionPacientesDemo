@@ -12,7 +12,7 @@ Sistema de autenticación seguro para proteger la información de los pacientes.
 ### 2. Nuevo Paciente
 Interfaz intuitiva para agregar nuevos pacientes al sistema.
 
-![Nuevo Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/nuevo.png?token=GHSAT0AAAAAACVMEWOM7YZEU7EYLTMWXGYKZVNIUDQ)
+![Nuevo Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/nuevo.png?token=GHSAT0AAAAAACVMEWONQ74HVEE72PTC5TW4ZVNI2TQ)
 
 ### 3. Actualizar Paciente
 Herramienta para mantener la información de los pacientes actualizada.
