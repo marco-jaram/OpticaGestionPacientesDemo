@@ -26,8 +26,10 @@ Visualización clara de las próximas citas programadas.
 
 ### 6. Ver Todos
 Vista general de todos los pacientes registrados en el sistema.
-![Ver Todos](https://i.postimg.cc/zX98KZfB/todos.png)
+![Ver Todos](https://i.postimg.cc/xTCT23Xv/todo2.png)
 
+
+[Video muestra](https://youtu.be/Zy_cPCl8d9Y)
 ## Instalación
 
 1. Clone este repositorio
