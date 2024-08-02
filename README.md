@@ -51,4 +51,4 @@ Las contribuciones son bienvenidas. Por favor, abra un issue para discutir los c
 
 ## Licencia
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https:pendiente.com)
