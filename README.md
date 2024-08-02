@@ -6,7 +6,7 @@ Este proyecto es una aplicación de gestión de clientes diseñada para ayudar a
 
 ### 1. Login
 Sistema de autenticación seguro para proteger la información de los pacientes.
-![Nuevo Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/login.png?token=GHSAT0AAAAAACVMEWOMOK5JIYOQHETWADO4ZVNITDQ)
+![Login](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/login.png?token=GHSAT0AAAAAACVMEWOMQS3LRVQU5N3EJL2IZVNIZGA)
 
 
 ### 2. Nuevo Paciente
