@@ -5,7 +5,7 @@ Este proyecto es una aplicación de gestión de clientes diseñada para ayudar a
 ## Características principales
 ### 1. Login
 Sistema de autenticación seguro para proteger la información de los pacientes.
-![Login]()
+![Login](https://i.postimg.cc/1XdPvbcv/login.png)
 
 ### 2. Nuevo Paciente
 Interfaz intuitiva para agregar nuevos pacientes al sistema.
