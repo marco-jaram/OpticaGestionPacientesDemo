@@ -17,13 +17,13 @@ Interfaz intuitiva para agregar nuevos pacientes al sistema.
 ### 3. Actualizar Paciente
 Herramienta para mantener la información de los pacientes actualizada.
 
-![Actualizar Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/edit.png?token=GHSAT0AAAAAACVMEWONR5MHQBGOZHBXOFVMZVNIVJQ)
+![Actualizar Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/edit.png?token=GHSAT0AAAAAACVMEWOM7CRWP3EHE4VN2RPMZVNI36A)
 
 ### 4. Búsqueda de Paciente
 Sistema de búsqueda eficiente para encontrar rápidamente la información de un paciente específico.
 
-![Búsqueda de Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/buscar.png?token=GHSAT0AAAAAACVMEWOMEJFZABZ2TOXVASUWZVNIVZQ)
-![Búsqueda de Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/buscar2.png?token=GHSAT0AAAAAACVMEWON5QDSCUKMADOALRPEZVNIWGA)
+![Búsqueda de Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/buscar.png?token=GHSAT0AAAAAACVMEWONZQFBG7CULFQ6JFXKZVNI4SA)
+![Búsqueda de Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/buscar2.png?token=GHSAT0AAAAAACVMEWONCTLTGVMTVUTOQSHGZVNI5AQ)
 
 ### 5. Próximas Visitas
 Visualización clara de las próximas citas programadas.
