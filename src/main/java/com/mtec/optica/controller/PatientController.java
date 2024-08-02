@@ -4,10 +4,14 @@ package com.mtec.optica.controller;
 import com.mtec.optica.model.Patient;
 import com.mtec.optica.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/patients")
@@ -21,10 +25,23 @@ public class PatientController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Patient> getPatientById(@PathVariable Long id) {
-        return patientService.getPatientById(id)
-                .map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());
+    public ResponseEntity<?> getPatientById(@PathVariable String id) {
+        try {
+            long patientId = Long.parseLong(id);
+            Optional<Patient> patient = patientService.getPatientById(patientId);
+            if (patient == null) {
+                Map<String, String> error = new HashMap<>();
+                error.put("code", "PATIENT_NOT_FOUND");
+                error.put("message", "Número de paciente no encontrado");
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body(error);
+            }
+            return ResponseEntity.ok(patient);
+        } catch (NumberFormatException e) {
+            Map<String, String> error = new HashMap<>();
+            error.put("code", "INVALID_INPUT");
+            error.put("message", "Debe ingresar un número");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(error);
+        }
     }
 
     @GetMapping

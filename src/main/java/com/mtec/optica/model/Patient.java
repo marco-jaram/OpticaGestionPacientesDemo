@@ -9,7 +9,7 @@ import java.util.List;
 
 @Data
 @Entity
-@Table(name="opticabd")
+@Table(name="opticadb")
 public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

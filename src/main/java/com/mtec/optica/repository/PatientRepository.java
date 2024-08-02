@@ -19,7 +19,8 @@ public interface PatientRepository extends JpaRepository<Patient, Long> {
     @Query("SELECT p FROM Patient p WHERE " +
             "LOWER(p.name) LIKE LOWER(CONCAT('%', :searchTerm, '%')) OR " +
             "LOWER(p.email) LIKE LOWER(CONCAT('%', :searchTerm, '%')) OR " +
-            "p.phone LIKE CONCAT('%', :searchTerm, '%')")
+            "p.phone LIKE CONCAT('%', :searchTerm, '%') OR " +
+            "LOWER(p.visitHistory) LIKE LOWER(CONCAT('%', :searchTerm, '%'))")
     List<Patient> searchPatients(@Param("searchTerm") String searchTerm);
 
     List<Patient> findByNextVisitDateBetween(LocalDate now, LocalDate endDate);

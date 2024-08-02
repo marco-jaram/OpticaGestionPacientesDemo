@@ -47,8 +47,8 @@ public class SecurityConfig {
     @Bean
     public InMemoryUserDetailsManager userDetailsService() {
         UserDetails user = User.withDefaultPasswordEncoder()
-                .username("administrador")
-                .password("optica@36*24")
+                .username("user")
+                .password("secret")
                 .roles("USER")
                 .build();
         return new InMemoryUserDetailsManager(user);

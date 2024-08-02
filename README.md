@@ -1,125 +1,54 @@
-## Sistema de gestion de cliente de optica
+# Gestión de Clientes
 
-### agregar folder data en raiz para persistencia
-- muestre de datos
-- [
-  {
-  "name": "Ana Rodríguez",
-  "age": 29,
-  "email": "ana.rodriguez@email.com",
-  "phone": "555-1111",
-  "service": "Examen de vista",
-  "product": "Lentes de contacto",
-  "visitHistory": ["Primera visita: Examen completo"],
-  "lastVisitDate": "2024-07-15"
-  },
-  {
-  "name": "Carlos Gómez",
-  "age": 45,
-  "email": "carlos.gomez@email.com",
-  "phone": "555-2222",
-  "service": "Ajuste de lentes",
-  "product": "Lentes bifocales",
-  "visitHistory": ["Ajuste de lentes bifocales"],
-  "lastVisitDate": "2024-07-16"
-  },
-  {
-  "name": "Elena Martínez",
-  "age": 32,
-  "email": "elena.martinez@email.com",
-  "phone": "555-3333",
-  "service": "Control anual",
-  "product": "Gafas de sol",
-  "visitHistory": ["Control anual: Sin cambios significativos"],
-  "lastVisitDate": "2024-07-17"
-  },
-  {
-  "name": "David Sánchez",
-  "age": 58,
-  "email": "david.sanchez@email.com",
-  "phone": "555-4444",
-  "service": "Tratamiento de ojo seco",
-  "product": "Gotas lubricantes",
-  "visitHistory": ["Diagnóstico de ojo seco", "Inicio de tratamiento"],
-  "lastVisitDate": "2024-07-18"
-  },
-  {
-  "name": "Isabel López",
-  "age": 23,
-  "email": "isabel.lopez@email.com",
-  "phone": "555-5555",
-  "service": "Adaptación lentes de contacto",
-  "product": "Lentes de contacto tóricas",
-  "visitHistory": ["Primera adaptación de lentes tóricas"],
-  "lastVisitDate": "2024-07-19"
-  },
-  {
-  "name": "Fernando Torres",
-  "age": 41,
-  "email": "fernando.torres@email.com",
-  "phone": "555-6666",
-  "service": "Revisión post-operatoria",
-  "product": null,
-  "visitHistory": ["Cirugía de cataratas hace 1 mes", "Evolución favorable"],
-  "lastVisitDate": "2024-07-20"
-  },
-  {
-  "name": "Lucía Navarro",
-  "age": 37,
-  "email": "lucia.navarro@email.com",
-  "phone": "555-7777",
-  "service": "Examen de presión intraocular",
-  "product": "Colirio para glaucoma",
-  "visitHistory": ["Detección de presión elevada", "Inicio tratamiento glaucoma"],
-  "lastVisitDate": "2024-07-21"
-  },
-  {
-  "name": "Roberto Herrera",
-  "age": 52,
-  "email": "roberto.herrera@email.com",
-  "phone": "555-8888",
-  "service": "Adaptación de lentes progresivas",
-  "product": "Lentes progresivas",
-  "visitHistory": ["Primera adaptación a progresivos"],
-  "lastVisitDate": "2024-07-22"
-  },
-  {
-  "name": "Carmen Jiménez",
-  "age": 19,
-  "email": "carmen.jimenez@email.com",
-  "phone": "555-9999",
-  "service": "Revisión de miopía",
-  "product": "Lentes para miopía",
-  "visitHistory": ["Control de miopía", "Aumento de graduación"],
-  "lastVisitDate": "2024-07-23"
-  },
-  {
-  "name": "Miguel Ángel Ruiz",
-  "age": 63,
-  "email": "miguel.ruiz@email.com",
-  "phone": "555-0000",
-  "service": "Examen de fondo de ojo",
-  "product": "Suplementos vitamínicos oculares",
-  "visitHistory": ["Examen de retina", "Recomendación de suplementos"],
-  "lastVisitDate": "2024-07-24"
-  }
-  ]
+Este proyecto es una aplicación de gestión de clientes diseñada para ayudar a administrar la información de los pacientes y sus visitas de manera eficiente.
 
-### Postman para probar los endpoints:
+## Características principales
 
-POST http://localhost:8080/api/patients (Crear paciente)
-GET http://localhost:8080/api/patients (Obtener todos los pacientes)
-GET http://localhost:8080/api/patients/{id} (Obtener paciente por ID)
-PUT http://localhost:8080/api/patients/{id} (Actualizar paciente)
-DELETE http://localhost:8080/api/patients/{id} (Eliminar paciente)
+### 1. Login
+Sistema de autenticación seguro para proteger la información de los pacientes.
+
+![Login](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/login.png?token=GHSAT0AAAAAACVMEWOMETE6LGUHLU57U6EYZVNIHXQ)
+
+### 2. Nuevo Paciente
+Interfaz intuitiva para agregar nuevos pacientes al sistema.
+
+![Nuevo Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/nuevo.png?token=GHSAT0AAAAAACVMEWOMIAM5A36YK26DZ6BAZVNIKRA)
+
+### 3. Actualizar Paciente
+Herramienta para mantener la información de los pacientes actualizada.
+
+![Actualizar Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/edit.png?token=GHSAT0AAAAAACVMEWONRYIQW77MVR77CUZMZVNIK5A)
+
+### 4. Búsqueda de Paciente
+Sistema de búsqueda eficiente para encontrar rápidamente la información de un paciente específico.
+
+![Búsqueda de Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/buscar.png?token=GHSAT0AAAAAACVMEWOMOA6WVOF5LODSGFV4ZVNILRQ)
+![Búsqueda de Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/buscar2.png?token=GHSAT0AAAAAACVMEWONSHVKP4CROAIYTXXWZVNIL4Q)
+
+### 5. Próximas Visitas
+Visualización clara de las próximas citas programadas.
+
+![Próximas Visitas](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/proxima.png?token=GHSAT0AAAAAACVMEWOMHNYXXU7JLUNWZAGSZVNIMMQ)
+
+### 6. Ver Todos
+Vista general de todos los pacientes registrados en el sistema.
+
+![Ver Todos](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/todos.png?token=GHSAT0AAAAAACVMEWOMCA34C2ZAFQW42RV2ZVNIM3A)
+
+## Instalación
+
+1. Clone este repositorio
+2. Configure las variables de entorno en un archivo `.env`
 
 
-### Busquedas filtradas
-Búsqueda general (por nombre, teléfono o email):
-GET http://localhost:8080/api/patients/search?searchTerm=juan
-Búsqueda por nombre:
-GET http://localhost:8080/api/patients/search/name?name=juan
-Búsqueda por teléfono:
-GET http://localhost:8080/api/patients/search/phone?phone=555
-Búsqueda por email:
-GET http://localhost:8080/api/patients/search/email?email=juan@email.com
+## Uso
+
+Para comenzar a usar la aplicación, inicie sesión con sus credenciales. Una vez dentro, podrá navegar por las diferentes secciones para gestionar la información de los pacientes.
+
+## Contribución
+
+Las contribuciones son bienvenidas. Por favor, abra un issue para discutir los cambios propuestos antes de hacer un pull request.
+
+## Licencia
+
+[MIT](https://choosealicense.com/licenses/mit/)
