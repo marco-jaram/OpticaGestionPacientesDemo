@@ -6,32 +6,34 @@ Este proyecto es una aplicación de gestión de clientes diseñada para ayudar a
 
 ### 1. Login
 Sistema de autenticación seguro para proteger la información de los pacientes.
+![Nuevo Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/login.png?token=GHSAT0AAAAAACVMEWOMOK5JIYOQHETWADO4ZVNITDQ)
+
 
 ### 2. Nuevo Paciente
 Interfaz intuitiva para agregar nuevos pacientes al sistema.
 
-![Nuevo Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/nuevo.png?token=GHSAT0AAAAAACVMEWOMIAM5A36YK26DZ6BAZVNIKRA)
+![Nuevo Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/nuevo.png?token=GHSAT0AAAAAACVMEWOM7YZEU7EYLTMWXGYKZVNIUDQ)
 
 ### 3. Actualizar Paciente
 Herramienta para mantener la información de los pacientes actualizada.
 
-![Actualizar Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/edit.png?token=GHSAT0AAAAAACVMEWONRYIQW77MVR77CUZMZVNIK5A)
+![Actualizar Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/edit.png?token=GHSAT0AAAAAACVMEWONR5MHQBGOZHBXOFVMZVNIVJQ)
 
 ### 4. Búsqueda de Paciente
 Sistema de búsqueda eficiente para encontrar rápidamente la información de un paciente específico.
 
-![Búsqueda de Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/buscar.png?token=GHSAT0AAAAAACVMEWOMOA6WVOF5LODSGFV4ZVNILRQ)
-![Búsqueda de Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/buscar2.png?token=GHSAT0AAAAAACVMEWONSHVKP4CROAIYTXXWZVNIL4Q)
+![Búsqueda de Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/buscar.png?token=GHSAT0AAAAAACVMEWOMEJFZABZ2TOXVASUWZVNIVZQ)
+![Búsqueda de Paciente](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/buscar2.png?token=GHSAT0AAAAAACVMEWON5QDSCUKMADOALRPEZVNIWGA)
 
 ### 5. Próximas Visitas
 Visualización clara de las próximas citas programadas.
 
-![Próximas Visitas](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/proxima.png?token=GHSAT0AAAAAACVMEWOMHNYXXU7JLUNWZAGSZVNIMMQ)
+![Próximas Visitas](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/proxima.png?token=GHSAT0AAAAAACVMEWOMGPKLK74P3F3FBBEWZVNIWUQ)
 
 ### 6. Ver Todos
 Vista general de todos los pacientes registrados en el sistema.
 
-![Ver Todos](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/todos.png?token=GHSAT0AAAAAACVMEWOMCA34C2ZAFQW42RV2ZVNIM3A)
+![Ver Todos](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/todos.png?token=GHSAT0AAAAAACVMEWONNTBTKBEGTAUWKIUEZVNIXFA)
 
 ## Instalación
 
