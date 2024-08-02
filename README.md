@@ -28,12 +28,12 @@ Sistema de búsqueda eficiente para encontrar rápidamente la información de un
 ### 5. Próximas Visitas
 Visualización clara de las próximas citas programadas.
 
-![Próximas Visitas](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/proxima.png?token=GHSAT0AAAAAACVMEWOMGPKLK74P3F3FBBEWZVNIWUQ)
+![Próximas Visitas](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/proxima.png?token=GHSAT0AAAAAACVMEWOMC7NLZUBWHNCYI332ZVNI6PA)
 
 ### 6. Ver Todos
 Vista general de todos los pacientes registrados en el sistema.
 
-![Ver Todos](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/todos.png?token=GHSAT0AAAAAACVMEWONNTBTKBEGTAUWKIUEZVNIXFA)
+![Ver Todos](https://raw.githubusercontent.com/marco-jaram/DashboardOptica/main/img/todos.png?token=GHSAT0AAAAAACVMEWOMM4YYGPXT3JFNORRGZVNI64Q)
 
 ## Instalación
 
